@@ -10,6 +10,8 @@ The file sentinel-deployment.config is located at the root folder in the reposit
 3. parameterfilemappings: a map to link a parameter file with a content file.
 
 * Configuration sample:
+```
+{
     {
       "prioritizedcontentfiles": [
         "parsers/Sample/ASimAuthenticationAWSCloudTrail.json",
@@ -30,6 +32,8 @@ The file sentinel-deployment.config is located at the root folder in the reposit
       },
       "DummySection": "This shouldn't impact deployment"
     }
+}
+```
 
 # Parameter File Location 
 There are three types of parameter files:
